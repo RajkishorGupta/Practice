@@ -1,0 +1,48 @@
+body
+{
+	background-color:khaki;
+	animation:b 10s 100;
+}
+#d{
+	border:solid 4px black;
+	background-color:yellow;
+	top:10%;
+	left:40%;
+	position:relative;
+	animation:f 10s 100;
+	height:50px;
+	width:100px;
+	text-align:center;
+	padding:70px 40px;
+	
+	
+	
+	
+}
+@keyframes f{
+	0% {top: 400px;left:0px;border-radius:100%;background-color:red;}
+    10%  {top: 0px;left:100px; border-radius:100%;background-color:red;}
+	 20%  {top: 400px;left:150px; border-radius:100%; background-color:orange;}  
+	  30%  {top: 0px;left:200px; border-radius:100%;background-color:orange;}
+	 40%  {top: 400px;left:300px; border-radius:100%;background-color:orange;}
+	  50%  {top: 0px;left:400px; border-radius:100%;background-color:white;}
+	  60%  {top: 400px;left:500px; border-radius:100%;background-color:white;}
+	 70%  {top: 0px;left:600px; border-radius:100%;background-color:orange;}  
+	  80%  {top: 400px;left:700px; border-radius:100%;background-color:orange;}
+	 90%  {top: 0px;left:800px; border-radius:100%;background-color:red;}
+	  100%  {top: 400px;left:900px; border-radius:100%;background-color:red;}
+
+}
+@keyframes b{
+0%{background-color:white;}
+20%{background-color:green;}
+50%{background-color:red;}
+70%{background-color:green;}
+90%{background-color:white;}
+100%{background-color:black;}
+
+
+}
+
+	
+
